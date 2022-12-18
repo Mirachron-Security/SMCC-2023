@@ -5,4 +5,5 @@ RUN apt-get update && \
     wget nano
 
 ADD ./grep /var/www/html/
+# create grep directory and add the website there
 WORKDIR /var/www/html/grep
