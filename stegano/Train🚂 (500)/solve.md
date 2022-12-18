@@ -17,3 +17,7 @@ unzip -P 'you_and_me' archive.zip
 for i in {1..50}; do zbarimg images-$i/* > out-$i; done
 for i in {1..50}; do cat out-$i| cut -d "." -f3 | tr -d "\n"; echo ; done | sort -u
 ```
+<br/><br/>
+
+## Flag:
+`flag{awesome_thing_you_did}`
