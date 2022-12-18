@@ -14,7 +14,7 @@
 
 <br/>
 
-3. remove extra "\_" and download file  
+3. remove extra "`_`" and download file  
 https://drive.google.com/uc?export=download&id=1gzatlPwDGA8jZPQQFzJ9EeTbn_-Xbdak<br/>
 ```python3
 $ python3
@@ -24,4 +24,4 @@ $ python3
 <br/>
 
 4. crack hashes online 
-  get flag: f5b480afec38e90861cff0df8a52d685 -> iloveyou14
+  get flag: `f5b480afec38e90861cff0df8a52d685` -> `iloveyou14`
