@@ -25,3 +25,8 @@ $ python3
 
 4. crack hashes online 
   get flag: `f5b480afec38e90861cff0df8a52d685` -> `iloveyou14`
+
+<br/><br/>
+
+## Flag:
+`flag{iloveyou14}`
