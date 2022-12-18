@@ -7,3 +7,8 @@ He said it is not valid and that I should help him find the secret signature...<
 Yeah, whatever. I don't really care for it. Can you do it though? <br/>
 
 Flag format: `flag{secret}`
+
+<br/><br/>
+
+## File:
+[token.txt](https://github.com/ChronosPK/Sibiu_Academic_CTF/files/10254361/token.txt)
