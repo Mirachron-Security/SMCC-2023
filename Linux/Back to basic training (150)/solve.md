@@ -1,7 +1,16 @@
 ## Solve:
 - [ ] add the user
-  `sudo useradd CTF`
-sudo usermod -u 2023 -g 1000 CTF
+  ```bash
+  sudo useradd CTF
+  sudo usermod -u 2023 -g 1000 CTF
+  ```
 
-# check linux file
-cat /etc/passwd | tail -n1
+- [ ] check linux file
+  ```bash
+  cat /etc/passwd | tail -n1
+  ```
+
+<br/>
+
+## Flag:
+`flag{CTF:x:2023:1000::/home/CTF:/bin/sh}`
