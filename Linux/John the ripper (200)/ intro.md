@@ -5,3 +5,8 @@ I need your help to crack this archive so I can try to pivot through the machine
 Do you think you can do it? <br/>
 <br/>
 Flag format: flag{password}
+
+<br/>
+
+## File:
+[to-crack.zip](https://github.com/ChronosPK/Sibiu_Academic_CTF/files/10270922/to-crack.zip)
