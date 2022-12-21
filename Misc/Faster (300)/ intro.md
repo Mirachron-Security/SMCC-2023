@@ -4,6 +4,6 @@ Get the flag and win, but you got to be fast!
 <br/>
 I know you are not that fast - you need to automate this.
 <br/><br/>
-Connect to `165.227.164.122 31337`
+Connect to `206.189.59.199 1337`
 <br/><br/>
 GLHF
