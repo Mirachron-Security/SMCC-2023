@@ -1,1 +1,1 @@
-![Infrastructura drawio](https://user-images.githubusercontent.com/93029180/208317946-7c45eca9-e265-40cc-ae8f-6373c210ed32.svg)
+![Infrastructura drawio](https://user-images.githubusercontent.com/93029180/208929225-0254198d-11f2-4ecf-8048-947d9a5444fe.svg)
