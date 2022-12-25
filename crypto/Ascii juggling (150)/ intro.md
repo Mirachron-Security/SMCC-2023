@@ -4,7 +4,7 @@ Retrieve the flag.
 <br/>
 Challenge for you: try to do it using python.
 <br/><br/>
-Flag format: flag{something}
+Flag format: `flag{something}`.
 
 <br/>
 
