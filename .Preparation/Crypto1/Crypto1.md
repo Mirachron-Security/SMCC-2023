@@ -1,6 +1,6 @@
 ## Crypto 1
 
-Crypto is very important nowadays, but we will just play around with some bases and bits.
+Crypto became very complicated nowadays. For now, we will just play around with some bases and bits.
 Any idea?
 ```
 ==gC90TPRdlNG1UVEZTVFllSPNDR180VRpVTLNlWZhkRKBlQMpVWXRlWP9EV0kEW040T
