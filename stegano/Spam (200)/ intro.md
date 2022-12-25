@@ -1,8 +1,9 @@
 ## Intro:
-My colleague started a course on steganography and tries to see if I can figure out when he sends me hidden stuff.<br/>
+My colleague started a course on steganography and keeps asking me to try and see if I can figure out the secret flags in different messages.
+<br/><br/>
 This time he sent me this spam message.<br/>
 Can you help me out?<br/>
-He usually sends flags in format `flag{hidden-text}`
+He usually sends flags in format `flag{hidden-text}`.
 
 <br/> <br/>
 
