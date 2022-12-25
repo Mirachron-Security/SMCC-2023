@@ -1,4 +1,4 @@
 ## Intro:
 ```19/25/14/20/{/10/21/2/_/18/9/18/1/_/22/6/_/7/21/22/6/}```
 
-flag{encoded_text}
+Flag format: `flag{encoded_text}`.
