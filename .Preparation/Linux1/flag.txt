@@ -1,1 +1,1 @@
-flag{invatam_sa_interactionam_cu_CLI}
+flag{interacting_with_the_CLI}
