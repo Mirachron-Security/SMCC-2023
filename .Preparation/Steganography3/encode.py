@@ -10,7 +10,7 @@ song = wave.open("4you.wav", mode='rb')
 frame_bytes = bytearray(list(song.readframes(song.getnframes())))
 
 # Define hidden message
-string='Good luck, old friend! ;) flag{LSB_stegano_in_music}'
+string='Good luck, old friend! ;) flag{LSB_stegano_in_music_is_cool}'
 
 # Padding data to fill out rest of the bytes. Receiver shall detect and remove these characters.
 string = string + int((len(frame_bytes)-(len(string)*8*8))/8) *'#'
