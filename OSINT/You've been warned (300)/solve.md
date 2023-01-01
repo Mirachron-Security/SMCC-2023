@@ -11,6 +11,8 @@
 - [ ] Reference to archive and the `20221225193927` number send us to the **Web Archive**<br/>
 	Check format used by the Web Archive: https://en.wikipedia.org/wiki/Template:Webarchive <br/>
 	And form the final link: http://web.archive.org/web/20221225193927/http://165.227.164.122/robots.txt
+	![oldrobots](https://user-images.githubusercontent.com/93029180/210171146-47dbd930-26b2-4641-a2c7-6984825743dc.png)
+
 
 <br/>
 
