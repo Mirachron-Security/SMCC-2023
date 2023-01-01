@@ -10,5 +10,5 @@ password: userpass
 <br/>
 
 ```bash
-curl 'http://206.189.59.199:8006/collide/?arg1[]=a&arg2[]=1'
+curl 'http://206.189.59.199:8006/collide'
 ```
