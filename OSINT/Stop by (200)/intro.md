@@ -12,4 +12,4 @@ Flag format is `flag{.*?}`
 
 ## File:
 
-![photo of military school](https://user-images.githubusercontent.com/93029180/209447599-3a31abaa-6798-4d71-a356-8d059bc74975.jpg)
+![nice_place_won_t_come_again](https://user-images.githubusercontent.com/93029180/210172055-d6288262-d6e9-4d5a-86bc-d0c4ffbd586d.jpg)
