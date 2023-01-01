@@ -2,15 +2,20 @@
 
 - [ ] Check `/robots.txt` <br/>
 	`It is too late now, but this is where I begun.`
+	<br/>
+	![robots](https://user-images.githubusercontent.com/93029180/210171042-e723014c-26ad-427f-89cf-64469edc0c7e.png)
+
 
 <br/>
 
 - [ ] Reference to archive and the `20221225193927` number send us to the **Web Archive**<br/>
-	[Destination link](http://web.archive.org/web/20221225193927/http://165.227.164.122/robots.txt)
+	Check format used by the Web Archive: https://en.wikipedia.org/wiki/Template:Webarchive <br/>
+	And form the final link: http://web.archive.org/web/20221225193927/http://165.227.164.122/robots.txt
 
 <br/>
 
-- [ ] Decode recursively `base64` encoded string
+- [ ] Once you get to the site, view source code and, at the bottom, there is a comment <br/>
+	Decode recursively `base64` encoded string
 	```bash
 	dec="Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNX
 	bGRTTTFKUVdWY3hTMUl4V25GVQpiR2hvVFZWd1ZWZFdaRFJUTWsxNFZHNU9hUXBTTUZwVVZtcEti
