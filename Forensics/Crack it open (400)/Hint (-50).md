@@ -1,2 +1,2 @@
-Shake my hand so I can see how tough you really are. <br/>
-If you are not nice, I'm going to rock you. <br/>
+*Shake my hand* so I can see how tough you really are. <br/>
+If you are not nice, I'm going to *rock* you.
