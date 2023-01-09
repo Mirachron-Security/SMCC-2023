@@ -2,7 +2,7 @@
 
 My colleague sent me this pdf while at work. <br/>
 I told him I was busy, but he insisted that I check it out. <br/>
-Put on your smart glasses, because this one is a catchy one. <br/>
+Put on your smart glasses, because this is a catchy one. <br/>
 
 <br/>
 
