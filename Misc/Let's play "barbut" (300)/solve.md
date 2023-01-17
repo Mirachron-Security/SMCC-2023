@@ -9,8 +9,8 @@
 - Flip the dices with blue colors
 - Add only the values of the now flipped blue dices
   ```
-  5 5 5 3
-  5 5 3
+  6 5 5 3
+  6 5 3
   1
   6 5
   5
