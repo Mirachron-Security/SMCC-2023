@@ -13,7 +13,7 @@ In luna va avea loc concursul?
 """)
 
 # correct response
-correct = "ianuarie"
+correct = "martie"
 
 # read the flag from local machine
 f_open = open("flag.txt","r")
