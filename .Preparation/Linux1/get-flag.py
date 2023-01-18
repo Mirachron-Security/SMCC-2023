@@ -13,7 +13,7 @@ text = s.recv().decode()
 #print(text)
 
 # send answer
-s.sendline(b"ianuarie")
+s.sendline(b"martie")
 
 # get response and trim out the flag
 response = s.recvline().decode()
