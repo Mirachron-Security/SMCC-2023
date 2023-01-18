@@ -1,4 +1,4 @@
-# Sibiu_Academic_CTF
+# Sibiu Military Cyber Challenge
 Begginer-Intermediate CTF for my colleagues in the military academy and school in Sibiu, Romania
 
 
