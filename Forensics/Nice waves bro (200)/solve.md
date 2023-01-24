@@ -4,11 +4,11 @@ View the spectrogram (audacity app)
 <br/>
 Interpret the text 
 <br/>
-![spectrogram](https://user-images.githubusercontent.com/93029180/211331287-e87d89f0-fa3c-4cc8-9dac-ac8295c5d326.png)
+![nice_waves](https://user-images.githubusercontent.com/93029180/214378505-73a4f807-c81b-414a-9465-c821fd12ff24.png)
 
 
 <br/>
 
 ## Flag:
 
-`flag{7h353_w4v35_b3_cr4zy}`
+`flag{can_y0u_he4r_m3?}`
