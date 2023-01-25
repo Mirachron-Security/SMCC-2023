@@ -11,4 +11,4 @@ Create a wordlist that fulfills all of the following requirements:<br/>
 - contains one uppercase letter
 - specifies his birthday
 <br/>
-Flag format: flag{number-of-passwords-generated}
+Flag format: **`flag{number-of-passwords-generated}`**
