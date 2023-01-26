@@ -1,9 +1,9 @@
 ## Intro:
 
 The IT guy sent me this list of IPs. Is this a joke?
-<br/>
-You need to "manipulate" those strings.  Find the right commands for that.
-<br/><br/>
+<br><br>
+Regular expressions, but for Linux. Take your time to manipulate those strings and find the hidden flag.
+<br><br>
 Flag format: **`flag{string}`**
 
 <br/><br/>
