@@ -1,6 +1,6 @@
 ## Solve:
 ```bash
-cat  /usr/share/wordlists/rockyou.txt | grep -E -w "[0-9]{1,5}" | wc -l
+grep -E -w "[0-9]{1,5}" /usr/share/wordlists/rockyou.txt | wc -l
 ```
 
 <br/>
