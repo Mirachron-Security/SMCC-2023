@@ -1,7 +1,7 @@
 ## Intro:
 
-What is the **100th password** from rockyou.txt that contains numbers, lowercase and upppercase letters and special characters?
-<br/>
-Might need more of those `grep`, plus a `head` and `tail`.
-<br/><br/>
-Flag format: flag{password}
+What is the **1500th  password** from **`rockyou.txt`** that contains only 2 digits followed by 10 or more letters (uppercase and lowercase)?
+<br><br>
+Flag format: **`flag{password}`**
+
+<br>
