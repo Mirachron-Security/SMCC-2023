@@ -1,6 +1,6 @@
 ## Intro:
 You know what you have to do.<br/>
-Flag format: flag{message}
+Flag format: **`flag{message}`**
 <br/>
 
 ## File:
