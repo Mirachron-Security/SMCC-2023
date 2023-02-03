@@ -1,9 +1,9 @@
 ## Solve:
 ```bash
-grep -E -w "[0-9]{1,5}" /usr/share/wordlists/rockyou.txt | wc -l
+cat text.txt | tr " " "\n" | grep "\@.*\@" | wc -l
 ```
 
 <br/>
 
 ## Flag:
-`flag{245398}`
+`flag{24}`
