@@ -1,7 +1,25 @@
 ## Intro:
 
-How many passwords in rockyou.txt contain only numbers and have a length less than 6?
-<br/>
-You can use `grep` and `wc`.
-<br/><br/>
-Flag format: flag{number}
+Search through the provided file how many words contain at least 2 "`@`" symbols.
+<br>
+
+Flag format: **`flag{number}`**
+
+<br>
+
+**Useful commands**: 
+- `cat`
+- `grep`
+- `wc`
+- `tr`
+
+<br> 
+
+ **Resources**: 
+ - [Regular expressions](https://www.guru99.com/linux-regular-expressions.html)
+
+<br>
+<br>
+
+## File:
+[text.txt](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10578130/text.txt)
