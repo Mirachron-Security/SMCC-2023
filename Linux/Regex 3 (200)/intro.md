@@ -1,7 +1,25 @@
 ## Intro:
 
-What is the **1500th  password** from **`rockyou.txt`** that contains only 2 digits followed by 10 or more letters (uppercase and lowercase)?
-<br><br>
-Flag format: **`flag{password}`**
+Search through the provided file how many words contain at least 2 characters.
+<br>
+
+Flag format: **`flag{number}`**
 
 <br>
+
+**Useful commands**: 
+- `cat`
+- `grep`
+- `wc`
+- `tr`
+
+<br> 
+
+ **Resources**: 
+ - [Regular expressions](https://www.guru99.com/linux-regular-expressions.html)
+
+<br>
+<br>
+
+## File:
+[text.txt](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10578188/text.txt)
