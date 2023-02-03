@@ -2,7 +2,7 @@
 
 The IT guy sent me this list of IPs. Is this a joke?
 <br><br>
-Regular expressions, but for Linux. Take your time to manipulate those strings and find the hidden flag.
+Take your time to manipulate those strings and find the hidden flag.
 <br><br>
 Flag format: **`flag{string}`**
 
