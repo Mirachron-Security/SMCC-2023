@@ -1,10 +1,10 @@
 ## Solve:
 
 ```bash
-cat /usr/share/wordlists/rockyou.txt | grep ^[0-9]*[0-9]$ | wc -l
+cat text.txt | tr " " "\n" | grep "^[A-Z]" | wc -l
 ```
 
 <br/>
 
 ## Flag:
-`flag{2346744}`
+`flag{60}`
