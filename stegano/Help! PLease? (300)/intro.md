@@ -4,4 +4,5 @@ An easy one. You got this. Flag format: **`flag{string}`**
 <br/><br/>
 
 # File:
-[ɧểȅêḗễľῥ.log](https://github.com/ChronosPK/Sibiu_Academic_CTF/files/10254121/e.l.log)
+[heeeeelp.log](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10694209/heeeeelp.log)
+
