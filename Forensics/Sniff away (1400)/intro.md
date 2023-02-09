@@ -43,4 +43,5 @@ Hints are allocated in order for questions 3,7,10.
 
 ## Files:
 
-[sniff away 1400.zip](https://github.com/ChronosPK/Sibiu_Academic_CTF/files/10310688/sniff.away.1400.zip)
+[sniff-away.zip](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10697784/sniff-away.zip)
+
