@@ -1,5 +1,5 @@
 ## Intro:
-An easy one. You got this. Flag format: flag{string}
+An easy one. You got this. Flag format: **`flag{string}`**
 
 <br/><br/>
 
