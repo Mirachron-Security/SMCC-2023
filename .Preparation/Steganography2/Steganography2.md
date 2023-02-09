@@ -5,7 +5,9 @@ Can you recover the hidden flag?
 
 <br/><br/>
 
-![steganography 2](https://user-images.githubusercontent.com/93029180/208887345-59806197-3c8c-43c1-8976-19b9cde624d5.png)
+## File:
+![SMCC-LSB](https://user-images.githubusercontent.com/93029180/217738143-97aaf78c-d5d4-4339-a35d-e0d139331f5f.png)
+
 
 <br/><br/>
 
@@ -19,4 +21,4 @@ Can you recover the hidden flag?
 <br/>
 
 ## Flag:
-`you_seem_to_know_some_stego_as_well`
+`flag{you_seem_to_know_some_stego_as_well}`
