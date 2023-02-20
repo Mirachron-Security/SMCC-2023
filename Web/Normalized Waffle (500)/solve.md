@@ -25,7 +25,8 @@
   
   Hint says the flag is temporary (in `tmp` directory)
   ```bash
-  [http://206.189.59.199:8004/backdoor?cmd=cat%20%EF%B9%A1](http://206.189.59.199:8004/backdoor?cmd=cat%20%EF%BC%8Ftmp%EF%BC%8Fflag%EF%B9%A1)
+  http://206.189.59.199:8004/backdoor?cmd=cat%20%EF%B9%A1
+  http://206.189.59.199:8004/backdoor?cmd=cat%20%EF%BC%8Ftmp%EF%BC%8Fflag%EF%B9%A1
   ```
   ![flag](https://user-images.githubusercontent.com/93029180/208316828-d7dce247-f3f2-4a5e-a48e-2d30d207acb9.png)
 
