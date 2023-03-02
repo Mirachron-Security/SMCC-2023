@@ -3,7 +3,7 @@
 # Define an array of script names to check
 SCRIPTS=(
     "/home/chronos/CTFs/AFT/discord/discord/discord-bot-creds.py" 
-    ""
+    
     )
 
 # Loop over the script names and find the process IDs of each script
