@@ -1,1 +1,2 @@
-apt install python3-pip && pip3 install inputimeout
+sudo apt install python3-pip
+pip install inputimeout
