@@ -3,7 +3,7 @@
 # Define an array of script paths to check
 SCRIPTS=(
     "/home/chronos/CTFs/AFT/discord/discord/discord-bot-creds.py" 
-    ""
+    
     )
 
 # Initialize a variable to keep track of whether all scripts are running
