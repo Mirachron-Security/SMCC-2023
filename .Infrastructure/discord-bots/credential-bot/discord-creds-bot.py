@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import discord
-import random
+import datetime
 
 # Define the welcome message
 welcome_message = """
@@ -43,7 +43,7 @@ async def on_member_join(member):
     # Check if the member has already been assigned credentials (see below)
     if str(member.id) in used_lines:
         return
-
+ 
     # Get the next set of credentials from the list
     if next_creds_index < len(creds):
         creds_line = creds[next_creds_index].strip()
@@ -53,8 +53,16 @@ async def on_member_join(member):
         await member.send("Sorry, no more credentials available.")
 
     # Add the user's ID to the list of used credentials
+    used_lines.append(str(member.id))
     with open('used_credentials.txt', 'a') as file:
         file.write(str(member.id) + '\n')
+
+    # log when each user has joined the server
+    with open('joined_users.txt', 'a') as file:
+        timestamp = datetime.datetime.now().strftime('%d.%m.%Y [%H:%M:%S]')
+        file.write(f'{timestamp} : {member.name}\n')
+        #file.write(str(member.display_name) + '\n')
+
 
 # Define the function that handles errors
 @client.event
