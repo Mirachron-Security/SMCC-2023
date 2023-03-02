@@ -1,7 +1,8 @@
 Can you figure out the correct card number? 
 <br>
 
-![card_to_retrieve.png](/files/dd835a18e697270bdaeb6c839a0242c4/card_to_retrieve.png)
+![card_to_retrieve](https://user-images.githubusercontent.com/93029180/222489118-512d9a57-b296-4513-97cb-5ae8183df9b0.png)
+
 
 <br>
 
