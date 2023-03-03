@@ -17,7 +17,7 @@ do
     then
         all_running=false
         echo -e "\nScript '$script' is not running. Starting..."
-        "$script_path" &
+        "$script" &
 
         sleep 3
 
