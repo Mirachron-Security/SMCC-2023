@@ -8,9 +8,8 @@ SCRIPT_FILE="/home/chronos/processes/scripts.txt"
 readarray -t SCRIPTS < "$SCRIPT_FILE"
 
 # Loop over the script names and find the process IDs of each script
-for script_path in "${SCRIPTS[@]}"
+for script in "${SCRIPTS[@]}"
 do
-    script=$(basename "$script_path")
     # Use pgrep to find the process ID(s) of the script
     pids=$(pgrep -f "$script")
 
