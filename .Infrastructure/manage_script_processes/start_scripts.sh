@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Define the path to the file containing script paths
 SCRIPT_FILE="/home/chronos/processes/scripts.txt"
 
@@ -12,23 +13,22 @@ all_running=true
 # Loop over the script paths and check if each script is running
 for script_path in "${SCRIPTS[@]}"
 do
-    #script=$(basename "$script_path")
-
-    if ! pgrep -f "$script_path" > /dev/null
+    script=$(basename "$script_path")
+    if ! pgrep -f "$script" > /dev/null
     then
         all_running=false
-        echo "Script '$script_path' is not running. Starting..."
+        echo -e "\nScript '$script' is not running. Starting..."
         "$script_path" &
 
         sleep 3
 
         # Check if the script started successfully
-        if pgrep -f "$script_path" > /dev/null
+        if pgrep -f "$script" > /dev/null
         then
-            echo "Script '$script_path' started successfully."
+            echo "Script '$script' started successfully."
             all_running=true
         else
-            echo "Failed to start script '$script_path'."
+            echo "Failed to start script '$script'."
         fi
     fi
 done
@@ -38,5 +38,5 @@ if $all_running
 then
     echo "All scripts are running."
 else
-    echo "Not all scripts are running."
+    echo -e "\nNot all scripts are running."
 fi
