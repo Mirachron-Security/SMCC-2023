@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# Define an array of script names to check
-SCRIPTS=(
-    "/home/chronos/discord/discord-creds-bot.py"
-    "/home/chronos/forensics/sniff_away/verify_srv.py"
-)
+
+# Define the path to the file containing script paths
+SCRIPT_FILE="/home/chronos/processes/scripts.txt"
+
+# Read the script paths from the file into an array
+readarray -t SCRIPTS < "$SCRIPT_FILE"
 
 # Loop over the script names and find the process IDs of each script
 for script_path in "${SCRIPTS[@]}"
