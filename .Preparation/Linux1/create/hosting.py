@@ -3,15 +3,12 @@
 import re
 from inputimeout import inputimeout, TimeoutOccurred
 import sys
-from time import sleep
 
 
 # user interation
-print("Salut! Concursul se apropie!")
-#sleep(0.5)
-print("Veti mai primi cateva exercitii pentru acomodare, sper sa va placa.")
-#sleep(0.5)
-print("""Pentru inceput, raspunde la aceasta intrebare (ai doar 3 secunde): 
+print("""Salut! Concursul se apropie!
+Veti mai primi cateva exercitii pentru acomodare, sper sa va placa.
+Pentru inceput, raspunde la aceasta intrebare (ai doar 3 secunde):
 
 In ce luna va avea loc concursul?
 """)
