@@ -11,9 +11,8 @@ readarray -t SCRIPTS < "$SCRIPT_FILE"
 all_running=true
 
 # Loop over the script paths and check if each script is running
-for script_path in "${SCRIPTS[@]}"
+for script in "${SCRIPTS[@]}"
 do
-    script=$(basename "$script_path")
     if ! pgrep -f "$script" > /dev/null
     then
         all_running=false
