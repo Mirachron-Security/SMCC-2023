@@ -5,7 +5,7 @@ import re
 
 # connection info
 context.log_level = "critical"
-host = "206.189.59.199"
+host = "213.177.18.70"
 port = 1337
 s = remote(host,port)
 
