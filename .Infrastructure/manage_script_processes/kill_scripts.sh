@@ -10,6 +10,7 @@ readarray -t SCRIPTS < "$SCRIPT_FILE"
 # Loop over the script names and find the process IDs of each script
 for script in "${SCRIPTS[@]}"
 do
+    script_name=$(echo $script | xargs basename)
     # Use pgrep to find the process ID(s) of the script
     pids=$(pgrep -f "$script")
 
