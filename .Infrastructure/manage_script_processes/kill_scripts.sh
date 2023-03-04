@@ -2,7 +2,7 @@
 
 
 # Define the path to the file containing script paths
-SCRIPT_FILE="/home/chronos/processes/scripts.txt"
+SCRIPT_FILE="/home/chronos/processes/scripts/scripts.txt"
 
 # Read the script paths from the file into an array
 readarray -t SCRIPTS < "$SCRIPT_FILE"
