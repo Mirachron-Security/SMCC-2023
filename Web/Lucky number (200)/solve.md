@@ -5,10 +5,10 @@
   or
   - Request it on your terminal
   ```bash
-  curl http://206.189.59.199:6666/
+  curl http://213.177.18.70:6666/
   ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{n0_b4d_p0rts_f0r_m3_pl3a53}`
