@@ -5,7 +5,7 @@
   wget -m http://206.189.59.199:8001
   grep --no-filename -RioP "flag{.*?}" .
   ```
-<br/>
+<br>
 
 ## Flag:
 `flag{grep_w1ll_d0_7h3_j0b}`
