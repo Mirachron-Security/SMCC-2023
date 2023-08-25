@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 ### define flag
 /usr/bin/python3 -c 'print(" ".join([str(ord(i)) for i in "flag{the_new_guy_is_weird}"]))' > encflag
 /usr/bin/cat encflag

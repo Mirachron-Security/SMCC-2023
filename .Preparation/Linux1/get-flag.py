@@ -1,4 +1,16 @@
-#!/usr/bin/python3 
+#!/usr/bin/python3
+
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
 
 from pwn import *
 import re

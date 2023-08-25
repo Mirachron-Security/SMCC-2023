@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 # To build
 # docker build -t web-grep-8001 .
 

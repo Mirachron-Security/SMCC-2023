@@ -1,5 +1,17 @@
 #!/usr/bin/python3
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 import re
 from inputimeout import inputimeout, TimeoutOccurred
 import sys
