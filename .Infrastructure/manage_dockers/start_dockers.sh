@@ -1,12 +1,6 @@
 #!/usr/bin/bash
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-for i in `find /home/chronos -name runme.sh -exec realpath {} \;`; do 
+for i in $(find /home/chronos -name runme.sh -exec realpath {} \;); do 
     $i 2>/dev/null;
 done
 

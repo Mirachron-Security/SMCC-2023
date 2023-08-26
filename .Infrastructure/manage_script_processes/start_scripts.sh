@@ -1,25 +1,16 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-=======
->>>>>>> parent of db8b9fe (Added signature)
 # Define the path to the file containing script paths
 SCRIPT_FILE="/home/chronos/processes/scripts/scripts.txt"
 
 # Read the script paths from the file into an array
-readarray -t SCRIPTS < "$SCRIPT_FILE"
+/usr/bin/readarray -t SCRIPTS < "$SCRIPT_FILE"
 
 # Initialize a variable to keep track of whether all scripts are running
 all_running=true

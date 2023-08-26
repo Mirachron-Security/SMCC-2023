@@ -1,26 +1,12 @@
 #!/usr/bin/python3
 
-<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-=======
->>>>>>> parent of db8b9fe (Added signature)
 # Va trebui sa modifici cateva elemente simple din script ;)
 
 # folosim un modul pentru manipularea fisierelor audio 
