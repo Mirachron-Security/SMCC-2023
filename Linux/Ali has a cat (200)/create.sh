@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 #|##############################|#
@@ -7,13 +6,6 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-=======
->>>>>>> parent of db8b9fe (Added signature)
 # user
 useradd -m user -s /bin/bash
 echo "user:userpass" | chpasswd

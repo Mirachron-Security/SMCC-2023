@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/python3
 
 #|##############################|#
@@ -7,19 +6,6 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-=======
->>>>>>> parent of db8b9fe (Added signature)
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 
 #|##############################|#
 #| Chronos Security             |#
@@ -6,7 +6,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-# To buid
-# docker build -t web-request-8007 .
+h = open("text.txt","r")
+c = h.read()
+h.close()
 
-docker run -d -p 8007:8007 -e AUTHOR="Radu" --name "web-request-8007" -it web-request-8007
+
+with open("encoded.txt","w") as f:
+	for word in c:
+		f.write(str(ord(word)))
+		f.write(" ")

@@ -1,26 +1,11 @@
 #!/usr/bin/python3
 
-<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
-
-=======
->>>>>>> parent of db8b9fe (Added signature)
 # pwntools pentru a crea conexiunea 
 from pwn import *
 # regex pentru a extrage doar secventele importante din text
