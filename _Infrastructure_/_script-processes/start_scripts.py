@@ -11,7 +11,7 @@ import subprocess
 import time
 from find_scripts import script_names 
 
-scripts = ["discord-creds-bot.py", ]#"verify_srv.py"]
+scripts = ["discord-creds-bot.py", "verify_srv.py"]
 script_paths = script_names(scripts)
 
 # Colored output
@@ -27,37 +27,47 @@ def is_process_running(process_name):
         return False
 
 def start_process(script_path):
-    subprocess.Popen(["python3", script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    return is_process_running(os.path.basename(script_path))
+    try:
+        subprocess.Popen(["python3", script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"{R}[*] {NO}{script_path!r}{R} could not be started. Error: {e}{NO}")
+        return False
 
 def get_full_script_paths(script_names):
     return [os.path.abspath(script) for script in script_names]
 
 def check_and_start_scripts(script_paths):
     non_running_scripts = []
+    any_script_not_running = False
 
+    print(f"{G}[*] Chosen scripts to start:{NO}")
+    for script_path in script_paths:
+        print(f"{script_path!r}")
+    
     for script_path in script_paths:
         script_name = os.path.basename(script_path)
         if not is_process_running(script_name):
             non_running_scripts.append(script_path)
-            print(f"{R}[*] Non-running scripts detected:{NO}")
-            print(f"{R}[-] {NO}{script_path!r}{R} is not running. Starting...{NO}", end="")
+            any_script_not_running = True
+    
+    if any_script_not_running:
+        print(f"\n{R}[*] Non-running scripts detected:{NO}")
+        for script_path in non_running_scripts:
+            print(f"{R}[-] {NO}{script_path!r}{R} is not running. Starting...", end="")
             if start_process(script_path):
-                print(f"\t{G}Done!{NO}")
+                print(f"{G} Done!{NO}")
             else:
                 print(f"{R}[*] {NO}{script_path!r}{R} could not be started.{NO}")
         
-    if non_running_scripts:
-        print(f"\n{G}[*] Waiting for a few seconds to let the scripts start...{NO}")
+        print(f"\n{G}[*] Waiting for a few seconds to let the scripts start...{NO}\n")
         time.sleep(5)  # Wait for 5 seconds
         
-        still_non_running_scripts = [script for script in non_running_scripts if not is_process_running(os.path.basename(script))]
-        if still_non_running_scripts:
-            print(f"\n{R}[-] The following scripts are still not running after start attempt:{NO}")
-            for script in still_non_running_scripts:
-                print(f"{script!r}")
-        else:
-            print(f"\n{G}[+] All non-running scripts are successfully started.{NO}")
+        print(f"{G}[*] Re-checking running status after start attempt...{NO}")
+        for script_path in script_paths:
+            script_name = os.path.basename(script_path)
+            if not is_process_running(script_name):
+                print(f"{R}[-] {NO}{script_path!r}{R} is still not running.{NO}")
     else:
         print(f"{G}\n[+] All scripts are already running.{NO}")
 
