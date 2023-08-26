@@ -1,2 +1,0 @@
-/home/chronos/discord/discord-creds-bot.py
-/home/chronos/forensics/sniff_away/verify_srv.py
