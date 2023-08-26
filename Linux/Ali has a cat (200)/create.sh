@@ -5,6 +5,12 @@
 #| https://chronossec.site      |#
 #| https://github.com/ChronosPK |#
 #|##############################|#
+
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
 # user
 useradd -m user -s /bin/bash
 echo "user:userpass" | chpasswd

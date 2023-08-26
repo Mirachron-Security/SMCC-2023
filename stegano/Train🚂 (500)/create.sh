@@ -6,6 +6,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 # fake flag
 echo 'flag{sorry_but_wrong_flagg}' > fake_flag
 

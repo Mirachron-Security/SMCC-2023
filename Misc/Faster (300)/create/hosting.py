@@ -12,6 +12,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 import re
 import string
 import random

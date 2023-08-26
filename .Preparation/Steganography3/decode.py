@@ -12,6 +12,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 import wave
 
 song = wave.open("4you-embeded.wav", mode='rb')

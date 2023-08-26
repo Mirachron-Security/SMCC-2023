@@ -6,6 +6,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 
 # Define the path to the file containing script paths
 SCRIPT_FILE="/home/chronos/processes/scripts/scripts.txt"

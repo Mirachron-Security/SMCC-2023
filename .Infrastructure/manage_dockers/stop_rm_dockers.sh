@@ -6,6 +6,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 echo "Stopping all docker containers..."
 if [ "$(docker ps -q)" ]; then
   docker stop $(docker ps -q)

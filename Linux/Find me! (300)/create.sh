@@ -6,6 +6,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 for repeat in {1..10}; do
 	for i in {1..15}; do mktemp -d dir-XXXX; done
 	

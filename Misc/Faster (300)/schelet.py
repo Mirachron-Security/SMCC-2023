@@ -12,6 +12,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 # pwntools pentru a crea conexiunea 
 from pwn import *
 # regex pentru a extrage doar secventele importante din text

@@ -12,6 +12,12 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+#|##############################|#
+#| Chronos Security             |#
+#| https://chronossec.site      |#
+#| https://github.com/ChronosPK |#
+#|##############################|#
+
 # Va trebui sa modifici cateva elemente simple din script ;)
 
 # folosim un modul pentru manipularea fisierelor audio 
