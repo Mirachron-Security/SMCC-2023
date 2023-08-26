@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -12,6 +13,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 
 # Define the path to the file containing script paths
 SCRIPT_FILE="/home/chronos/processes/scripts/scripts.txt"

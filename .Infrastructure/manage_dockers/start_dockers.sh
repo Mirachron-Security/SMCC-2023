@@ -1,10 +1,4 @@
-#!/bin/bash
-
-#|##############################|#
-#| Chronos Security             |#
-#| https://chronossec.site      |#
-#| https://github.com/ChronosPK |#
-#|##############################|#
+#!/usr/bin/bash
 
 #|##############################|#
 #| Chronos Security             |#

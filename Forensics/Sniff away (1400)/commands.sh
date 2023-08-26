@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -12,6 +13,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 export IP=$1
 
 # 1. What is the URL the attacker accessed in order to login to the webpage?

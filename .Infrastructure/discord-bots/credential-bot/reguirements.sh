@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 
 #|##############################|#
@@ -11,4 +12,6 @@
 #| https://chronossec.site      |#
 #| https://github.com/ChronosPK |#
 #|##############################|#
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 pip install discord.py

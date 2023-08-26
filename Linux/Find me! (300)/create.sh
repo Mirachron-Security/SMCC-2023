@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -12,6 +13,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 for repeat in {1..10}; do
 	for i in {1..15}; do mktemp -d dir-XXXX; done
 	

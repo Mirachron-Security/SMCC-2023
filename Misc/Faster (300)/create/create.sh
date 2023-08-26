@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -12,6 +13,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 # simultaneous connections from multiple users 
 # create a pty because the python script accepts input from a terminal
 # redirect errors to /dev/null !!

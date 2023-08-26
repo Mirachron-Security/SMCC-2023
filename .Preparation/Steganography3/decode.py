@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -18,6 +19,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 import wave
 
 song = wave.open("4you-embeded.wav", mode='rb')

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 #|##############################|#
 #| Chronos Security             |#
 #| https://chronossec.site      |#
@@ -12,6 +13,8 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
+=======
+>>>>>>> parent of db8b9fe (Added signature)
 ### define flag
 /usr/bin/python3 -c 'print(" ".join([str(ord(i)) for i in "flag{the_new_guy_is_weird}"]))' > encflag
 /usr/bin/cat encflag
