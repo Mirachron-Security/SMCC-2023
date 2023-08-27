@@ -5,27 +5,27 @@
 LYVAS7RKBB7CUCZOFIEB4KQJ5YVAXDRKBDHCUCJ6FIEF4KQLLYVAXTRKBAPCUC6OFIET
 ```
 
-<br/>
+<br>
 
-2. braille<br/>
+2. braille<br>
 ```⠓⠞⠞⠏⠎⠒⠸⠌⠸⠌⠎⠓⠕⠗⠞⠥⠗⠇⠲⠁⠞⠸⠌⠓⠅⠵⠼⠁⠼⠓```
 
-<br/>
+<br>
 
-3. link to download file<br/>
+3. link to download file<br>
 	`https://shorturl.at/hkz18`
 
-<br/>
+<br>
 
 4. comment in image metadata & refferences to "hash"
 ```c164f8184cf318e37229b34fe97ab4ad3ba8c55f```
 
-<br/>
+<br>
 
 5. crack hash online
 ```iloveher1```
 
-<br/>
+<br>
 
 ## Flag:
 **`flag{iloveher1}`**

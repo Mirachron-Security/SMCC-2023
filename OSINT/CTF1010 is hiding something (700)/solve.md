@@ -37,7 +37,7 @@
 - [ ] Reverse image search 
   https://www.google.com/maps/place/Mausoleum+of+Baron+von+Schroeder/@53.6285858,10.0461783,7a,54.2y/data=!3m8!1e2!3m6!1sAF1QipPTgmw5t0DFi3j2MscyxO47648Uc-5gzKyEAwvk!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPTgmw5t0DFi3j2MscyxO47648Uc-5gzKyEAwvk%3Dw203-h270-k-no!7i3024!8i4032!4m12!1m6!3m5!1s0x0:0x2e5dc28fb587dcdb!2sOSINT+Open+Source+Intelligence+Training!8m2!3d53.6387821!4d10.0150667!3m4!1s0x47b189a5116f19ad:0x1ee39d7f191e3d43!8m2!3d53.6285858!4d10.0461783
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{Mausoleum_of_Baron_von_Schroeder}`

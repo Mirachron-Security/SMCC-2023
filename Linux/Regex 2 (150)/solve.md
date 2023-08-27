@@ -3,7 +3,7 @@
 cat text.txt | tr " " "\n" | grep "\@.*\@" | wc -l
 ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{24}`

@@ -1,10 +1,10 @@
 ## Solve:
-- [ ] windows<br/>
+- [ ] windows<br>
 `CTRL + F` -> text with white font
-- [ ] linux<br/>
+- [ ] linux<br>
 `grep -nriw flag` 
 
-<br/><br/>
+<br><br>
 
 # Flag:
 `flag{you_found_me}`

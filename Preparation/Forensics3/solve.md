@@ -1,11 +1,11 @@
 ## Solve:
 
 - [ ] Method 1
-  Look at the bytes, see an extra "hahaha--" before a "PK" (file signature for zip archive) <br/>
-  `base64` encode the file <br/>
-  `base64` encode the first part "hahaha--" <br/>
-  Extract the first part from the hole chunk <br/>
-  `base64` decode the remaining part, then extract the flag. <br/>
+  Look at the bytes, see an extra "hahaha--" before a "PK" (file signature for zip archive) <br>
+  `base64` encode the file <br>
+  `base64` encode the first part "hahaha--" <br>
+  Extract the first part from the hole chunk <br>
+  `base64` decode the remaining part, then extract the flag. <br>
   ```bash
   base64 didi.bin > base
   cat base
@@ -28,19 +28,19 @@
   unzip out
   ```
 
-<br/><br/>
+<br><br>
 
 - [ ] Method 2
-  Use the byte-carving tool `dd` <br/>
-  Count the number of bytes required to cut. <br/>
+  Use the byte-carving tool `dd` <br>
+  Count the number of bytes required to cut. <br>
   ![xxd output](https://user-images.githubusercontent.com/93029180/209116640-ba20e2c5-61fc-4bf9-af54-abb255f44792.png)
-  <br/>
-  Start carving: <br/>
+  <br>
+  Start carving: <br>
   ```bash
   dd if=didi.bin of=out.zip ibs=1 skip=9
   ```
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{didi_input_ouput_and_the_flag_is_yours}`

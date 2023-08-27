@@ -1,10 +1,10 @@
 ## Solve:
 
 `grep` the flag on Linux
-<br/>
+<br>
 `CTRL + F` works as well
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{grep_those_words}`

@@ -1,20 +1,20 @@
 ## Solve:
 
-- [ ] Set of blacklisted characters (not allowed) <br/>
+- [ ] Set of blacklisted characters (not allowed) <br>
   <sup>```blacklist = ["~","!","@","#","$","%","^","&","*","(",")","_","-","+","{","}","]","[","|","\\","|",";",",",".","<",">","?","/","`",":","\""]```</sup>
 
-<br/>
+<br>
 
-- [ ] If the characters introduced are not in the blacklist, the command given is **normalized** <br/>
+- [ ] If the characters introduced are not in the blacklist, the command given is **normalized** <br>
   ```norm = unicodedata.normalize("NFKC", cmd)```
 
-<br/>
+<br>
 
-- [ ] We can request regular commands, but in order to get the flag we need to bypass the blacklist. <br/>
-    We do this by using special characters in **Unicode** that are the equivalent of normal characters after **normalization**. <br/>
+- [ ] We can request regular commands, but in order to get the flag we need to bypass the blacklist. <br>
+    We do this by using special characters in **Unicode** that are the equivalent of normal characters after **normalization**. <br>
     We see some examples here: https://lazarv.com/posts/unicode-normalization-vulnerabilities/
 
-<br/>
+<br>
 
 - [ ] After a series of commands, we find out where is the flag
   ```bash
@@ -30,7 +30,7 @@
   ```
   ![flag](https://user-images.githubusercontent.com/93029180/208316828-d7dce247-f3f2-4a5e-a48e-2d30d207acb9.png)
 
-<br/>
+<br>
 
 ## Flag:
 `flag{normalizing_the_input_4_the_bypass}`

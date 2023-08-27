@@ -17,18 +17,24 @@ app = Flask(__name__)
 app.logger.setLevel(logging.INFO)
 
 # Configure a file handler for the Flask logger
-file_handler = RotatingFileHandler('requests.log', maxBytes=1024*1024, backupCount=10)
+script_directory = os.path.dirname(os.path.abspath(__file__))
+log_file_path = os.path.join(script_directory, 'requests.log')
+
+file_handler = RotatingFileHandler(log_file_path, maxBytes=1024*1024, backupCount=10)
 file_handler.setLevel(logging.INFO)
 formatter = logging.Formatter('%(levelname)s: %(message)s')
 file_handler.setFormatter(formatter)
 app.logger.addHandler(file_handler)
 
 # Load answers from file
-with open('/home/chronos/forensics/sniff_away/answers.txt', 'r') as f:
+answers_path = os.path.join(script_directory, 'answers.txt')
+
+with open(answers_path, 'r') as f:
     answers = [line.strip().replace('\n', '') for line in f.readlines()]
 
 # Load flag from file
-with open('/home/chronos/forensics/sniff_away/flag.txt', 'r') as f:
+flag_path = os.path.join(script_directory, 'flag.txt')
+with open(flag_path, 'r') as f:
     flag = f.read().strip()
 
 # Redirect stdout and stderr to /dev/null

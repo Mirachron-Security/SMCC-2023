@@ -10,7 +10,7 @@
   0 PB
   Crunch will now generate the following number of lines: 2831400
   ```
-<br/>
+<br>
 
 ## Flag:
 `flag{2831400}`

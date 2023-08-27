@@ -44,12 +44,12 @@ die;
       <div class="centered">
         <div class="well">
           <center><h3 class="corb-login-length">Admin Login</h3></center>
-          <br/>
+          <br>
           <form method="POST">
           <input name="username" class="form-control" type="text" placeholder="username">
-          <br/>
+          <br>
           <input name="password" class="form-control" type="text" placeholder="password">
-          <br/>
+          <br>
           <input name="submit" class="corb-submit btn btn-primary btn-lg" type="submit" value="Login">
           </form>
         </div>

@@ -2,10 +2,10 @@
 
 - [ ] Rail Fence (Zig-Zag) Cipher
   [dcode link](https://www.dcode.fr/rail-fence-cipher)
-  <br/>
+  <br>
   `THESTRINGBETWEENPARANTHESESISZIGZAG`
 
-<br/>
+<br>
 
 ## Flag (case insensitive):
 `flag{zigzag}`

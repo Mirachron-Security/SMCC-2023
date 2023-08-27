@@ -4,7 +4,7 @@
 cat text.txt | tr " " "\n" | grep "^[A-Z]" | wc -l
 ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{60}`

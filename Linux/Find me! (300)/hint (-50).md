@@ -1,10 +1,10 @@
 ## Hint:
-You need to automate this. <br/>
-Let me teach you some linux-fu. <br/>
+You need to automate this. <br>
+Let me teach you some linux-fu. <br>
 
-<br/>
+<br>
 
-- [ ] For loop:<br/>
+- [ ] For loop:<br>
   ```bash
   for i in <condition here>; do <command here>; done
   ```

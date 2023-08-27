@@ -6,14 +6,14 @@ stegseek spot-me.jpg
 [i] Original filename: "mountians_and_sh8t.zip".
 [i] Extracting to "spot-me.jpg.out".
 ```
-<br/><br/>
+<br><br>
 
 2. Many blank lines, so we try `stegsnow`
 ```bash
 stegsnow -C spot-me.jpg.out
 ZmxhZ3s3aDE1X3c0eV8zNDV5XzQ1XzRfNW4wd2ZsNGszfQ== 
 ```
-<br/><br/>
+<br><br>
 
 3. decode `base64`                                                                                                                  
 ```bash

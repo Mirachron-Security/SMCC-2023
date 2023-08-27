@@ -1,22 +1,22 @@
 ## Solve:
 
-- [ ] Check `/robots.txt` <br/>
+- [ ] Check `/robots.txt` <br>
 	`It is too late now, but this is where I begun.`
-	<br/>
+	<br>
 	![robots](https://user-images.githubusercontent.com/93029180/210171042-e723014c-26ad-427f-89cf-64469edc0c7e.png)
 
 
-<br/>
+<br>
 
-- [ ] Reference to archive and the `20221225193927` number send us to the **Web Archive**<br/>
-	Check format used by the Web Archive: https://en.wikipedia.org/wiki/Template:Webarchive <br/>
+- [ ] Reference to archive and the `20221225193927` number send us to the **Web Archive**<br>
+	Check format used by the Web Archive: https://en.wikipedia.org/wiki/Template:Webarchive <br>
 	And form the final link: http://web.archive.org/web/20221225193927/http://165.227.164.122/robots.txt
 	![oldrobots](https://user-images.githubusercontent.com/93029180/210171146-47dbd930-26b2-4641-a2c7-6984825743dc.png)
 
 
-<br/>
+<br>
 
-- [ ] Once you get to the site, view source code and, at the bottom, there is a comment <br/>
+- [ ] Once you get to the site, view source code and, at the bottom, there is a comment <br>
 	Decode recursively `base64` encoded string
 	```bash
 	dec="Vm0wd2QyVkhVWGhVYmxKV1YwZDRXRmxVUm5kVlJscHpXa2M1VjFKdGVGWlZNbmhQWVd4S2MxTnNX
@@ -32,7 +32,7 @@
 	for i in {1..10}; do dec=$(<<<"$dec" base64 -d); echo $dec; echo; done
 	```
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{robots_will_take_over}`

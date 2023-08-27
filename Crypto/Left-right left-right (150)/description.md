@@ -1,9 +1,9 @@
 ## Intro:
 
 We all face obstacles, so we must learn how to dodge them. 
-<br/>
+<br>
 `TTGWPNSSZHSRNBTENAATEEIZGAEIEERHSIG`
-<br/><br/>
+<br><br>
 Flag format: flag{something}
-<br/>
+<br>
 

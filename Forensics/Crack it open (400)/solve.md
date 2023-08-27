@@ -8,7 +8,7 @@
   aircrack-ng crack-it-open.cap -w /usr/share/wordlists/rockyou.txt
   ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{hatehackers}`

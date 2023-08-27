@@ -9,13 +9,13 @@ Flag format: **`flag{message}`**
 [Uploading stegano4.zip…]()
 
 
-<br/>
+<br>
 
 ## Solve:
 
 Open audio file in an app that viwes the sperctrogram (such as `Audacity`) and read the message.
 
-<br/>
+<br>
 
 ## Flag:
 `flag{spectrograms_are_awesome}`

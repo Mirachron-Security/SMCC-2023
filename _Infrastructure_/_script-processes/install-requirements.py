@@ -16,7 +16,7 @@ C = "\033[0;36m"
 NO = "\033[0m"
 
 python_packages = ["docker","inputimeout","logging","discord","textwrap"]
-linux_binaries = ["wget","socat","docker.io"]
+linux_binaries = ["python3-pip", "wget","socat","docker.io"]
 
 def check_requirements(requirements, check_func, install_func, message):
     try:

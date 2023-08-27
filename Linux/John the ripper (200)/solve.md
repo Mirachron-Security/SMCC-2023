@@ -12,7 +12,7 @@
   john --wordlists=/usr/share/wordlists/rockyou.txt unshadowed
   ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{iloveyou20}`

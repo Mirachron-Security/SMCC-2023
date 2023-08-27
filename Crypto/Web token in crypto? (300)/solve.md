@@ -15,7 +15,7 @@ INFO[0038] Found! Token signature secret is jwtswat      Signature=Verified Word
 [+] Finish crack mode
 ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{jwtswat}`

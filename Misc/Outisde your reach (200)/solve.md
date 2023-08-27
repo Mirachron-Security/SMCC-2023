@@ -7,8 +7,8 @@
 - If you select the cropping tool, you see the image was originally larger, and on the extremities the flag was hidden. <br> <br>
   ![flag](https://user-images.githubusercontent.com/93029180/210175130-0c1d409b-671e-478b-a545-71606046e873.png)
 
-<br/>
-<br/>
+<br>
+<br>
 
 ## Flag:
 `flag{control=illusion}`

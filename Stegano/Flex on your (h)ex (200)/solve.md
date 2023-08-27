@@ -6,7 +6,7 @@ strings FLEX.md | grep { | head -n1 | tr -d '.'
 yflag{you_ok}>
 ```
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{you_ok}`

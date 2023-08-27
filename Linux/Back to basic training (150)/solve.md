@@ -10,7 +10,7 @@
   cat /etc/passwd | tail -n1
   ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{CTF:x:2023:1000::/home/CTF:/bin/sh}`

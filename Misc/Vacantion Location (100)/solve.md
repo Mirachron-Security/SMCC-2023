@@ -1,10 +1,10 @@
 ## Solve:
 
 Every coordinate location is represented by a country.
-<br/>
+<br>
 Take the first letter of each country and put them together to form the flag.
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{notthathard}`

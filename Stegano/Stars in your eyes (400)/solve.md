@@ -4,11 +4,11 @@
 
 - **`Stars`** is a reference to the yellow dots in the pages of the pdf.
 - Those patterns represent the [MIC (Machine Identification Code)](https://en.wikipedia.org/wiki/Machine_Identification_Code), also known as printer steganography, yellow dots and so on.
-  <br/>
+  <br>
   ![image](https://user-images.githubusercontent.com/93029180/209968190-a1163d92-6f03-47c7-a9a4-ef62139fec0c.png)
 - Tiny dots are embedded on printouts by modern printers. Markings like these were used to trace [NSA documents leaked to The Intercept by Reality Winner](https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots).
 
-<br/><br/>
+<br><br>
 
 ### Find tool and decode
 
@@ -24,7 +24,7 @@
 pdftoppm merged.pdf scan -png; for x in {1..26}; do echo -n $(python3 -c "print(chr($(deda_parse_print $x.png | grep serial | cut -d '-' -f2 | sed 's/^0*//')))"); done
 ```
 
-<br/><br/>
+<br><br>
 
 ## Flag:
 `flag{the_new_guy_is_weird}`

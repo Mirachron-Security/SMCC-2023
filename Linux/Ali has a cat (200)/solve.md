@@ -1,7 +1,7 @@
 ## Solve:
 
 ### Method 1 - check aliases
-- [ ] Many relevant commands have been modified through **aliases** <br/>
+- [ ] Many relevant commands have been modified through **aliases** <br>
   We then need to restore the commands we want to use
   ```bash
   unalias cat 
@@ -16,7 +16,7 @@
   c''at /home/user/flag.txt
   ```
 
-<br/>
+<br>
 
 ## Flag:
 `flag{who_let_the_cat_out?}`
