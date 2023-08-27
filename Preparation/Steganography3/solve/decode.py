@@ -8,7 +8,9 @@
 
 import wave
 
-song = wave.open("4you-embeded.wav", mode='rb')
+script_directory = os.path.dirname(os.path.abspath(__file__))
+file_in_path = os.path.join(script_directory, '4you-embeded.wav')
+song = wave.open(file_in_path, mode='rb')
 
 # Convert audio to byte array
 frame_bytes = bytearray(list(song.readframes(song.getnframes())))

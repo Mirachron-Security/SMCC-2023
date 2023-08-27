@@ -13,7 +13,7 @@ import sys
 
 # user interation
 print("""Salut! Concursul se apropie!
-Veti mai primi cateva exercitii pentru acomodare, sper sa va placa.
+Veti mai primi cateva exercitii pentru acomodare. Sper sa va placa!
 Pentru inceput, raspunde la aceasta intrebare (ai doar 3 secunde):
 
 In ce luna va avea loc concursul?
@@ -23,7 +23,9 @@ In ce luna va avea loc concursul?
 correct = "martie"
 
 # read the flag from local machine
-f_open = open("/home/chronos/challenges/pre-ctf/give-me-the-date/flag.txt","r")
+script_directory = os.path.dirname(os.path.abspath(__file__))
+flag_path = os.path.join(script_directory, 'flag.txt')
+f_open = open(flag_path ,"r")
 f = f_open.read()
 
 try:

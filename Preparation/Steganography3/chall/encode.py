@@ -4,7 +4,9 @@
 import wave
 
 # read wave audio file
-song = wave.open("4you.wav", mode='rb')
+script_directory = os.path.dirname(os.path.abspath(__file__))
+file_in_path = os.path.join(script_directory, '4you.wav')
+song = wave.open(file_in_path, mode='rb')
 
 # Read frames and convert to byte array
 frame_bytes = bytearray(list(song.readframes(song.getnframes())))
@@ -26,7 +28,8 @@ for i, bit in enumerate(bits):
 frame_modified = bytes(frame_bytes)
 
 # Write bytes to a new wave audio file
-with wave.open('4you-embeded.wav', 'wb') as fd:
+file_out_path = os.path.join(script_directory, '4you-embeded.wav')
+with wave.open(file_out_path, 'wb') as fd:
     fd.setparams(song.getparams())
     fd.writeframes(frame_modified)
 song.close()
