@@ -6,12 +6,13 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-import re
-
-h = open("encoded.txt")
+h = open("text.txt","r")
 c = h.read()
 h.close()
 
-decoded = ''.join([chr(int(dec)) for dec in c.split()])
 
-print(''.join(re.findall('flag{.*}',decoded)))
+with open("encoded.txt","w") as f:
+	for word in c:
+		f.write(str(ord(word)))
+		f.write(" ")
+		print(str(ord(word)),end=" ")
