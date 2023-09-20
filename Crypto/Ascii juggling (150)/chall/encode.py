@@ -6,12 +6,20 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-h = open("text.txt","r")
+import os
+
+file_in_name = "text.txt"
+file_out_name = "encoded.txt"
+current_dir = os.path.dirname(__file__)
+file_in_path = os.path.join(current_dir,file_in_name)
+file_out_path = os.path.join(current_dir,file_out_name)
+
+h = open(file_in_path,"r")
 c = h.read()
 h.close()
 
 
-with open("encoded.txt","w") as f:
+with open(file_out_path,"w") as f:
 	for word in c:
 		f.write(str(ord(word)))
 		f.write(" ")
