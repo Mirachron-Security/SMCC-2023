@@ -1,12 +1,36 @@
-# Sibiu Military Cyber Challenge
+# Sibiu Military Cyber Challenge 2023
+```
 Beginner-Intermediate CTF for my colleagues in the military academy and school in Sibiu, Romania
+```
 
+<br><br>
 
-I categorized here all the challenges that I created for this CTF.
+# What is here?
+```
+- Infrastructure in detail
 
-Moreover, I added the **solutions** and, where I saw fit, even the **method I used to create the challenges**, be them Docker containers or scripts.
+- Categorized challenges
+    - description
+    - solution
+    - how to create (optional)  
+```
 
-Hope you will enjoy and learn some interesting things!
+<br><br>
 
-P.S. The server is not UP anymore. 
-Also, I am working on the flexibility of the scripts so everyone can run them.
+# What else?
+```
+Hope you will enjoy my content and learn some interesting, new things!
+
+I fixed the *portability* of the scripts: you can now run them from your machine.
+
+The server is not online anymore.
+```
+
+<br><br>
+
+# SMCC 2024
+```
+If you are part of one of the Romanian military education institutions, be on the lookout for SMCC 2024!
+
+I will coordonate this CTF as well and it will take place in the beginning of March, 2024.
+```
