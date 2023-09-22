@@ -3,7 +3,11 @@
 Beginner-Intermediate CTF for my colleagues in the military academy and school in Sibiu, Romania
 ```
 
-<br><br>
+<br>
+
+[![DOI](https://zenodo.org/badge/579676201.svg)](https://zenodo.org/badge/latestdoi/579676201)
+
+<br>
 
 # What is here?
 ```
