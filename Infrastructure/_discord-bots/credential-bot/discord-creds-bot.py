@@ -9,7 +9,6 @@
 import discord
 import datetime
 import os
-import sys
 
 # Colored output
 R = "\033[0;31m"

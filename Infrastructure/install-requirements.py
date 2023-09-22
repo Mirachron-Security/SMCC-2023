@@ -18,6 +18,7 @@ NO = "\033[0m"
 python_packages = ["docker","inputimeout","logging","discord","textwrap"]
 linux_binaries = ["python3-pip", "wget","socat","docker.io"]
 
+
 def check_requirements(requirements, check_func, install_func, message):
     try:
         missing_requirements = [req for req in requirements if not check_func(req)]
@@ -31,12 +32,14 @@ def check_requirements(requirements, check_func, install_func, message):
     else:
         print(f"{G}[+] All required {message.lower()} are installed.{NO}")
 
+
 def check_python_package(package):
     try:
         __import__(package)
         return True
     except ImportError:
         return False
+
 
 def check_linux_binary(binary):
     try:
