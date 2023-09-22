@@ -1,10 +1,8 @@
 ## Intro:
 
-Retrieve the flag.
-<br>
-Challenge for you: try to do it using python.
-<br><br>
-Flag format: `flag{something}`.
+Retrieve the flag. <br>
+An extra challenge: try to do it using python. <br>
+Flag format: **`flag{something}`**.
 
 <br>
 

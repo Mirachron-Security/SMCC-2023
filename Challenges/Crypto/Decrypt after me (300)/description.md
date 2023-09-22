@@ -8,7 +8,7 @@
 1. Decrypt the file `second.txt.gpg` with the key `tryharder`. You should also know the following: <br>
     - the algorithm used is **aes256**
 
-<br><br>
+<br>
 
 ## Files:
 [first-second.zip](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10682838/first-second.zip)
