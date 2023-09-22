@@ -6,9 +6,9 @@ Are you ready to break old Simon’s password?
 <br>
 
 Create a wordlist that fulfills all of the following requirements:<br>
-- starts with the name “Simon”
+- starts with the name "Simon"
 - contains 2 symbols
 - contains one uppercase letter
 - specifies his birthday year
-<br>
+
 Flag format: **`flag{number-of-passwords-generated}`**

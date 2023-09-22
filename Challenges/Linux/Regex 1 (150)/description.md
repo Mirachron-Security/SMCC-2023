@@ -15,12 +15,11 @@ Flag format: **`flag{number}`**
 
 <br> 
 
- **Resources**: 
- - [Regular expressions](https://www.guru99.com/linux-regular-expressions.html)
- <br>
+**Resources**: 
+- [Regular expressions](https://www.guru99.com/linux-regular-expressions.html)
  
- <br>
+<br>
  
- ## File:
+## File:
  
 [text.txt](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10578083/text.txt)

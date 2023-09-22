@@ -4,7 +4,7 @@
 - [ ] linux<br>
 `grep -nriw flag` 
 
-<br><br>
+<br>
 
 # Flag:
-`flag{you_found_me}`
+**`flag{you_found_me}`**

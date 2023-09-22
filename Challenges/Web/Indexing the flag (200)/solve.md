@@ -6,4 +6,4 @@
 <br>
 
 ## Flag:
-`flag{can't_trust_even_the_HTML}`
+**`flag{can't_trust_even_the_HTML}`**

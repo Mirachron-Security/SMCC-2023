@@ -1,8 +1,8 @@
 ## Solve:
-- [ ] spam-encoded message
+- spam-encoded message
 https://www.spammimic.com/decode.shtml
 
-<br><br>
+<br>
 
 ## Flag:
-`flag{hereiam}`
+**`flag{hereiam}`**

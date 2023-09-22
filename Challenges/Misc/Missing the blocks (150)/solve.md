@@ -6,5 +6,4 @@ within the black squares in the corners.
 <br>
 
 ## Flag:
-
-`flag{no_missing_blocks}`
+**`flag{no_missing_blocks}`**

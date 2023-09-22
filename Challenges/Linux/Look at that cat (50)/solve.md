@@ -5,4 +5,4 @@ Open the file.
 <br>
 
 ## Flag:
-`flag{cat_art}`
+**`flag{cat_art}`**

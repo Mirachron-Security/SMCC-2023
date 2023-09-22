@@ -5,4 +5,4 @@
 <br>
 
 ## Flag:
-`flag{digging_the_dns}`
+**`flag{digging_the_dns}`**

@@ -13,4 +13,4 @@
 <br>
 
 ## Flag:
-`flag{Server_Side_Template_Injection_is_4_cool_kids_only}`
+**`flag{Server_Side_Template_Injection_is_4_cool_kids_only}`**

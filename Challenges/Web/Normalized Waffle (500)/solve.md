@@ -33,4 +33,4 @@
 <br>
 
 ## Flag:
-`flag{normalizing_the_input_4_the_bypass}`
+**`flag{normalizing_the_input_4_the_bypass}`**

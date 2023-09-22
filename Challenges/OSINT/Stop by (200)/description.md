@@ -7,7 +7,7 @@ Anyway... I hope the kids in these institutions are doing well, can't imagine ho
 <br>
 If you think you can *extract* a flag out of this hole thing, go for it. <br>
 
-Flag format is `flag{.*?}`
+Flag format is **`flag{.*?}`**
 <br><br>
 
 ## File:

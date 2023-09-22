@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<!-- Codu' in PHP, ca sa nu zici ca nu iti dau nimic: 
+<!-- Codul in PHP, ca sa nu zici ca nu iti dau nimic: 
 
 $flag='flag{fake_flag_4_testing}';
 if (isset($_GET['arg1']) and isset($_GET['arg2'])) {
@@ -13,7 +13,7 @@ if (isset($_GET['arg1']) and isset($_GET['arg2'])) {
         if (md5($_GET['arg1']) === md5($_GET['arg2']))
             die('Faina treaba, ia steagul asta '.$flag);
     else
-        print 'Scuze fra, mai da pe la scoala si tu';
+        print 'Scuze... mai treci pe la scoala si tu';
 }
 -->
 <?php
@@ -24,7 +24,7 @@ if (isset($_GET['arg1']) and isset($_GET['arg2'])) {
     	if (md5($_GET['arg1']) === md5($_GET['arg2']))
         	die('Faina treaba, ia steagul asta '.$flag);
     else
-        print 'Scuze fra, mai da pe la scoala si tu';
+        print 'Scuze... mai treci pe la scoala si tu';
 }
 ?>
 </body>

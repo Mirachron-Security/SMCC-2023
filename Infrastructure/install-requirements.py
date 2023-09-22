@@ -15,7 +15,7 @@ G = "\033[0;32m"
 C = "\033[0;36m"
 NO = "\033[0m"
 
-python_packages = ["docker","inputimeout","logging","discord","textwrap"]
+python_packages = ["pwn", "docker","inputimeout","logging","discord","textwrap","flask"]
 linux_binaries = ["python3-pip", "wget","socat","docker.io"]
 
 

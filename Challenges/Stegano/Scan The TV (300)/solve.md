@@ -1,6 +1,7 @@
 ## Solve:
-- [ ] SSTV Robots36 encoded image<br>
+SSTV Robots36 encoded image <br>
 https://github.com/colaclanth/sstv
+
 ```bash
 git clone https://github.com/colaclanth/sstv.git
 python setup.py install
@@ -12,4 +13,4 @@ sstv -d nightmare.wav -o solved.jpg
 <br>
 
 # Flag:
-`flag{turn_it_off}`
+**`flag{turn_it_off}`**

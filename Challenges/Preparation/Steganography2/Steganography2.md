@@ -3,7 +3,7 @@
 LSB (least significan bit) is a really common form of steganograhy. <br>
 Can you recover the hidden flag?
 
-<br><br>
+<br>
 
 ## File:
 ![SMCC-LSB](https://user-images.githubusercontent.com/93029180/217738143-97aaf78c-d5d4-4339-a35d-e0d139331f5f.png)
@@ -18,12 +18,12 @@ Can you recover the hidden flag?
   zsteg steganography.png
   ```
 
-<br><br>
+<br>
 
 ## Create:
 - [ ] https://stylesuxx.github.io/steganography/
 
-<br><br>
+<br>
 
 ## Flag:
-`flag{you_seem_to_know_some_stego_as_well}`
+**`flag{you_seem_to_know_some_stego_as_well}`**

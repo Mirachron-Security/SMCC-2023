@@ -5,7 +5,7 @@ The initials are "JQT" and I haven't touched the initials of the rings. <br>
 
 <br>
 
-Flag format: `flag{message}`.
+Flag format: **`flag{message}`**.
 
 <br><br>
 

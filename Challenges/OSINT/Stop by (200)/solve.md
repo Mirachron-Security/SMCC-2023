@@ -17,8 +17,8 @@ Enter passphrase: 6.97
 wrote extracted data to "flag.txt".
 ```
 
-<br><br>
+<br>
 
 ## Flag:
 
-`flag{i_was_the_guy_with_the_camera_for_google}`
+**`flag{i_was_the_guy_with_the_camera_for_google}`**

@@ -42,4 +42,4 @@ Now calculate the xor of the 2 hex strings (hashes) [online](https://xor.pw/)
 <br><br>
 
 ## Flag:
-`flag{3dce58438480dfaf2f40ad101070c1312bfe37149148ce505733b7ac74d14206}`
+**`flag{3dce58438480dfaf2f40ad101070c1312bfe37149148ce505733b7ac74d14206}`**

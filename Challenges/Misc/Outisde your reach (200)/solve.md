@@ -8,7 +8,6 @@
   ![flag](https://user-images.githubusercontent.com/93029180/210175130-0c1d409b-671e-478b-a545-71606046e873.png)
 
 <br>
-<br>
 
 ## Flag:
-`flag{control=illusion}`
+**`flag{control=illusion}`**

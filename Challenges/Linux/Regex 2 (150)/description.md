@@ -19,7 +19,6 @@ Flag format: **`flag{number}`**
  - [Regular expressions](https://www.guru99.com/linux-regular-expressions.html)
 
 <br>
-<br>
 
 ## File:
 [text.txt](https://github.com/ChronosPK/Sibiu-Military-Cyber-Challenge/files/10578130/text.txt)

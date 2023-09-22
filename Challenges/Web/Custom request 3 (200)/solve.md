@@ -63,4 +63,4 @@
 
 ## Flag:
 
-`flag{redirect_redirect_go_ahead}`
+**`flag{redirect_redirect_go_ahead}`**

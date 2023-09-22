@@ -11,4 +11,4 @@
 <br>
 
 ## Flag:
-`flag{wow_2_strings_with_the_same_MD5_sum__or_is_That_so}`
+**`flag{wow_2_strings_with_the_same_MD5_sum__or_is_That_so}`**

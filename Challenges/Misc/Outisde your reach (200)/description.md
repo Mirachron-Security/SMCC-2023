@@ -20,7 +20,6 @@ A mystery, wrapped in mystery
 But the answer lies, within this clue
 A hint of what, we may pursue
 ```
-<br>
 
 ## File:
 

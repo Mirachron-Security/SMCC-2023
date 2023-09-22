@@ -18,4 +18,4 @@ Its format is flag{something}.
 <br><br>
 
 ## Flag:
-`flag{HTTP_awesome_protocol}`
+**`flag{HTTP_awesome_protocol}`**

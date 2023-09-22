@@ -13,4 +13,4 @@
 <br>
 
 ## Flag:
-`flag{CTF:x:2023:1000::/home/CTF:/bin/sh}`
+**`flag{CTF:x:2023:1000::/home/CTF:/bin/sh}`**

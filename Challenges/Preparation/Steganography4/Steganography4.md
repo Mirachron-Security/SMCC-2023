@@ -3,7 +3,7 @@
 One of the first tricks in the book.
 Flag format: **`flag{message}`**
 
-<br><br>
+<br>
 
 ## File:
 [Uploading stegano4.zip…]()
@@ -12,7 +12,6 @@ Flag format: **`flag{message}`**
 <br>
 
 ## Solve:
-
 Open audio file in an app that viwes the sperctrogram (such as `Audacity`) and read the message.
 
 <br>

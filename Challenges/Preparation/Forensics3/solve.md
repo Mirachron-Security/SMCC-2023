@@ -43,6 +43,6 @@
 <br><br>
 
 ## Flag:
-`flag{didi_input_ouput_and_the_flag_is_yours}`
+**`flag{didi_input_ouput_and_the_flag_is_yours}`**
   
   
