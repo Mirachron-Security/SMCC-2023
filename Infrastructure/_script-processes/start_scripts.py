@@ -6,19 +6,28 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-import os
+import os, sys
 import subprocess
 import time
-from find_scripts import script_names 
 
-scripts = ["discord-creds-bot.py", "verify_srv.py"]
-script_paths = script_names(scripts)
+# Custom functions
+from find_path import find_path
 
 # Colored output
 R = "\033[0;31m"
 G = "\033[0;32m"
 NO = "\033[0m"
 
+scripts = ["discord-creds-bot.py", "verify_srv.py"]
+
+# Get the full paths of the scripts required
+script_paths = []
+for script in scripts:
+    script_path = find_path('.', script)
+    script_paths.append(script_path)
+
+
+# Check if the script is running
 def is_process_running(process_name):
     try:
         subprocess.run(["pgrep", "-f", process_name], stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
@@ -26,6 +35,8 @@ def is_process_running(process_name):
     except subprocess.CalledProcessError:
         return False
 
+
+# Execute the script
 def start_process(script_path):
     try:
         subprocess.Popen(["python3", script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -34,9 +45,8 @@ def start_process(script_path):
         print(f"{R}[*] {NO}{script_path!r}{R} could not be started. Error: {e}{NO}")
         return False
 
-def get_full_script_paths(script_names):
-    return [os.path.abspath(script) for script in script_names]
 
+# If the script is not running, execute it
 def check_and_start_scripts(script_paths):
     non_running_scripts = []
     any_script_not_running = False
@@ -51,31 +61,39 @@ def check_and_start_scripts(script_paths):
             non_running_scripts.append(script_path)
             any_script_not_running = True
     
+    # If at least one script is not running
     if any_script_not_running:
         print(f"\n{R}[*] Non-running scripts detected:{NO}")
         for script_path in non_running_scripts:
-            print(f"{R}[-] {NO}{script_path!r}{R} is not running. Starting...", end="")
+            time.sleep(1)
+            print(f"{R}[-] Starting {NO}{script_path!r}",end="",flush=True)
             if start_process(script_path):
-                print(f"{G} Done!{NO}")
+                time.sleep(1)
+                print(f"\t{G}Done!{NO}")
             else:
                 print(f"{R}[*] {NO}{script_path!r}{R} could not be started.{NO}")
         
-        print(f"\n{G}[*] Waiting for a few seconds to let the scripts start...{NO}\n")
-        time.sleep(5)  # Wait for 5 seconds
-        
-        print(f"{G}[*] Re-checking running status after start attempt...{NO}")
+        time.sleep(1)
+        print(f"\n{G}[*] Re-checking running status after start attempt...{NO}\n")
+        time.sleep(4)  
+
+        all_running = True
         for script_path in script_paths:
             script_name = os.path.basename(script_path)
             if not is_process_running(script_name):
-                print(f"{R}[-] {NO}{script_path!r}{R} is still not running.{NO}")
+                print(f"{R}[-] {NO}{script_path!r}{R} is not running.{NO}")
+                all_running = False
+        if all_running:
+            print(f"{G}[+] All scripts are running now.{NO}")
+
     else:
         print(f"{G}\n[+] All scripts are already running.{NO}")
 
     return non_running_scripts
 
 def main():
-    full_script_paths = get_full_script_paths(script_paths)
-    check_and_start_scripts(full_script_paths)
+    check_and_start_scripts(script_paths)
+
 
 if __name__ == "__main__":
     try:

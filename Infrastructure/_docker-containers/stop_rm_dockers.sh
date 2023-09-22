@@ -6,20 +6,27 @@
 #| https://github.com/ChronosPK |#
 #|##############################|#
 
-echo "Stopping all docker containers..."
+# Colored output
+R="\033[0;31m"
+G="\033[0;32m"
+NO="\033[0m"
+
+echo -e "$G[*] Stopping all docker containers...$NO"
+
 if [ "$(docker ps -q)" ]; then
   docker stop $(docker ps -q)
 else
-  echo "No running containers found."
+  echo "[+] No running containers found."
 fi
 
 echo
 
-echo "Removing all docker containers ..."
+echo -e "$G[*] Removing all docker containers ...$NO"
+
 if [ "$(docker ps -aq)" ]; then
   docker rm $(docker ps -aq)
 else
-  echo "No containers found."
+  echo "[+] No containers found."
 fi
 
-echo -e "\nDone"
+echo -e "$G\nDone!$NO"

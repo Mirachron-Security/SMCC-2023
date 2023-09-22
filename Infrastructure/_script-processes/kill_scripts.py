@@ -8,10 +8,16 @@
 
 import os
 import subprocess
-from find_scripts import script_names 
+import time
+
+# Custom functions
+from find_path import find_path
 
 scripts = ["discord-creds-bot.py", "verify_srv.py"]
-script_paths = script_names(scripts)
+script_paths = []
+for script in scripts:
+    script_path = find_path('.', script)
+    script_paths.append(script_path)
 
 # Colored output
 R = "\033[0;31m"
@@ -32,8 +38,6 @@ def kill_process(process_name):
     except subprocess.CalledProcessError:
         return False
 
-def get_full_script_paths(script_names):
-    return [os.path.abspath(script) for script in script_names]
 
 def check_and_kill_scripts(script_paths):
     running_scripts = []
@@ -48,23 +52,26 @@ def check_and_kill_scripts(script_paths):
         all_killed = True
         for script in running_scripts:
             if kill_process(os.path.basename(script)):
+                time.sleep(1)
                 print(f"{R}[*] {NO}{script!r}{R} has been killed.{NO}")
             else:
+                time.sleep(1)
                 print(f"{R}[*] {script} could not be killed.{NO}")
                 all_killed = False
         
         if all_killed:
+            time.sleep(1)
             print(f"\n{G}[+] All scripts are successfully killed.{NO}")
         else:
             print(f"\n{R}[-] Some scripts are still running after kill attempt.{NO}")
     else:
+        time.sleep(1)
         print(f"{G}\n[+] No running scripts detected.{NO}")
 
     return running_scripts
 
 def main():
-    full_script_paths = get_full_script_paths(script_paths)
-    check_and_kill_scripts(full_script_paths)
+    check_and_kill_scripts(script_paths)
 
 if __name__ == "__main__":
     try:
