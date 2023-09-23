@@ -38,19 +38,28 @@ def add_banner_to_file(file_path):
     with open(file_path, 'r') as f:
         content = f.read()
 
-    if has_banner(content):
-        return False
+    if not has_banner(content):
+        with open(file_path, 'w') as f:
+            if content.startswith(python_shebang) or content.startswith(bash_shebang):
+                shebang, rest = content.split('\n', 1)
+                f.write(shebang + '\n' + banner + rest)
+            else:
+                f.write(f"{python_shebang}\n" if file_path.endswith('.py') else f"{bash_shebang}\n")
+                f.write(banner)
 
-    with open(file_path, 'w') as f:
-        if content.startswith(python_shebang) or content.startswith(bash_shebang):
-            shebang, rest = content.split('\n', 1)
-            f.write(shebang + '\n' + banner + rest)
-        else:
+        return True
+
+    if not content.startswith(python_shebang) and not content.startswith(bash_shebang):
+        with open(file_path, 'w') as f:
             f.write(f"{python_shebang}\n" if file_path.endswith('.py') else f"{bash_shebang}\n")
-            f.write(banner)
+            if banner.strip() != "":
+                f.write("\n")  # Add an extra newline after the shebang
             f.write(content)
 
-    return True
+        return True
+
+    return False
+
 
 # Process files recursively
 def process_files(directory):
