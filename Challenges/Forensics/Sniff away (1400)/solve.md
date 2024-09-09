@@ -1,20 +1,6 @@
 ## Solve:
 
 ### Answers:
-http://192.168.56.102/prehistoricforest/wp-login.php
-WordPress
-tom:tomtom1
-http://192.168.56.102/tommy/hi.txt
-/etc/passwd
-shockedrichard.jpg
-spanky
-/6packsofb...soda
-Steve Jobs
-nickburns:nickburns
-NickIzL33t
-bruteforce
-LFI:/etc/passwd
-22,80,8008,65534
 
 1. `http://192.168.56.102/prehistoricforest/wp-login.php`
 2. `WordPress`
