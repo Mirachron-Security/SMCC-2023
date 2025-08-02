@@ -38,18 +38,22 @@ Beginner-Intermediate CTF for my colleagues in the military academy and school i
 
 # What else?
 ```
-Hope you will enjoy my content and learn some interesting, new things!
+We hope you will enjoy the content of these challenges and learn some interesting, new things!
 
-I fixed the *portability* of the scripts: you can now run them from your machine.
+We fixed the portability of the scripts: you can now run them from your machine.
 
 The server is not online anymore.
 ```
 
 <br><br>
 
-# SMCC 2024
-```
-If you are part of one of the Romanian military education institutions, be on the lookout for SMCC 2024!
+# CSCTF 2024
 
-I will coordonate this CTF as well and it will take place in the beginning of March, 2024.
-```
+- Sibiu Military Cyber Challenge (SMCC) becomes Chronos Security CTF (CSCTF)
+- CSCTF 2024 will take place in March 2024 and invites everyone, especially pupils and students from Romania.
+
+<br><br>
+
+# CSCTF 2025
+
+Register for CSCTF 2025 <a href="https://www.mirachron.com/csctf2025" target="_blank">**here**</a> - international CTF with a whole team behind it.
