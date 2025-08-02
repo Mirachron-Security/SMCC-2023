@@ -7,14 +7,14 @@ Beginner-Intermediate CTF for my colleagues in the military academy and school i
 
 <table border="0">
   <tr>
-    <td><img src="Images/1.png" alt="1" height="300"/></td>
-    <td><img src="Images/2.png" alt="2" height="300"/></td>
+    <td><img src="Images/1.png" alt="1" width="500"/></td>
+    <td><img src="Images/6.jpeg" alt="6" width="500"/></td>
   </tr>
 </table>
 <table border="0">
   <tr>
-    <td><img src="Images/3.png" alt="3" height="280"/></td>
-    <td><img src="Images/4.png" alt="4" height="280"/></td>
+    <td><img src="Images/7.jpeg" alt="7" width="500"/></td>
+    <td><img src="Images/4.png" alt="4" width="500"/></td>
   </tr>
 </table>
 
